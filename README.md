@@ -24,23 +24,27 @@ PDF Parsing: PyMuPDF (fitz)
 Data Storage: JSON (Local File)
 
 ## 🚀 설치 및 실행 방법
-1. 프로젝트 클론
+
+### 1. 프로젝트 클론
 Bash
 
 git clone https://github.com/kth0727/python_review_program.git
 
-2. 가상환경 생성 (권장)
+### 2. 가상환경 생성 (권장)
 Bash
 
-# Windows
+Windows
+
 python -m venv venv
 source venv/Scripts/activate
 
-# Mac/Linux
+Mac/Linux
+
 python3 -m venv venv
 source venv/bin/activate
 
 ## 3. 필수 라이브러리 설치
+
 아래 라이브러리들을 설치합니다.
 
 Bash
@@ -62,6 +66,7 @@ GEMINI_API_KEY=여기에_당신의_API_키를_붙여넣으세요
 Bash
 
 streamlit run app.py
+
 실행이 안 될 경우 python -m streamlit run app.py를 사용하세요.
 
 ## 📖 사용 가이드
