@@ -56,8 +56,10 @@ AI Model: Google Gemini 2.5 Flash
 PDF Processing: PyMuPDF (fitz)
 
 Image Processing: Pillow
+
 <br><br>
-## 🚀 설치 및 실행 방법
+
+# 🚀 설치 및 실행 방법
 
 <br>
 
@@ -112,7 +114,7 @@ python -m streamlit run app.py
 
 PDF 업로드: 공부할 파일을 올리고 **"🚀 문제 생성 시작"**을 클릭합니다.
 
-추출된 이미지와 생성된 문제가 review_db.json 및 review_images/ 폴더에 저장됩니다.
+추출된 이미지와 생성된 문제가 review.db 및 review_images/ 폴더에 저장됩니다.
 
 <br>
 
@@ -151,7 +153,7 @@ python_review_program/
 
 ├── app.py              # 메인 애플리케이션 코드
 
-├── review_db.json      # 문제 데이터베이스 (자동 생성)
+├── review.db      # 문제 데이터베이스 (자동 생성)
 
 ├── review_images/      # PDF에서 추출된 이미지 저장소 (자동 생성)
 
