@@ -1,3 +1,4 @@
 .env
 *.json
 review_images/
+review.db
