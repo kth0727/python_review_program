@@ -91,6 +91,7 @@ GEMINI_API_KEY=여기에_당신의_API_키를_붙여넣으세요
 4. 애플리케이션 실행
 
 터미널에서 아래 명령어를 입력하여 앱을 실행합니다.
+
 python -m streamlit run app.py
 
 <br>
