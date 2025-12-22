@@ -44,6 +44,7 @@ git clone https://github.com/kth0727/python_review_program.git
 가상환경(venv) 사용을 권장합니다.
 
 cmd
+
 pip install streamlit pymupdf google-generativeai python-dotenv pillow
 
 3. API 키 설정
