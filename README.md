@@ -23,12 +23,12 @@ PDF Parsing: PyMuPDF (fitz)
 
 Data Storage: JSON (Local File)
 
-🚀 설치 및 실행 방법
+## 🚀 설치 및 실행 방법
 1. 프로젝트 클론
 Bash
 
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+git clone https://github.com/kth0727/python_review_program.git
+
 2. 가상환경 생성 (권장)
 Bash
 
@@ -39,13 +39,15 @@ source venv/Scripts/activate
 # Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
-3. 필수 라이브러리 설치
+
+## 3. 필수 라이브러리 설치
 아래 라이브러리들을 설치합니다.
 
 Bash
 
 pip install streamlit pymupdf google-generativeai python-dotenv pillow
-4. API 키 설정
+
+## 4. API 키 설정
 프로젝트 폴더에 .env 파일을 생성하고, Google Gemini API 키를 입력하세요. (API 키 발급: Google AI Studio)
 
 .env 파일 내용:
@@ -53,7 +55,8 @@ pip install streamlit pymupdf google-generativeai python-dotenv pillow
 코드 스니펫
 
 GEMINI_API_KEY=여기에_당신의_API_키를_붙여넣으세요
-5. 애플리케이션 실행
+
+## 5. 애플리케이션 실행
 터미널에서 아래 명령어를 입력하여 앱을 실행합니다.
 
 Bash
@@ -61,7 +64,7 @@ Bash
 streamlit run app.py
 실행이 안 될 경우 python -m streamlit run app.py를 사용하세요.
 
-📖 사용 가이드
+## 📖 사용 가이드
 1️⃣ 문제 생성 (Tab 1)
 [문제 생성] 탭으로 이동합니다.
 
@@ -104,4 +107,4 @@ Bash
 python -m streamlit run app.py
 Q. 문제가 생성되지 않아요. A. PDF가 암호화되어 있거나, 이미지/텍스트 추출이 불가능한 스캔본일 경우 인식이 어려울 수 있습니다. 또한 .env 파일에 API 키가 올바르게 들어갔는지 확인해 주세요.
 
-License: MIT Created by: [본인 이름/닉네임]
+License: MIT Created by: [권태환/kth0727]
