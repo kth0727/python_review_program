@@ -99,11 +99,17 @@ streamlit run app.py
 
 📂 폴더 구조
 📂 Project Root
+
 ├── app.py              # 메인 애플리케이션 코드
+
 ├── review_db.json      # 생성된 문제와 복습 데이터가 저장되는 DB
+
 ├── .env                # API 키 설정 파일 (생성 필요)
+
 ├── requirements.txt    # 의존성 패키지 목록
+
 └── README.md           # 설명서
+
 ❗ 트러블슈팅
 Q. streamlit 명령어를 찾을 수 없다는 오류가 떠요. A. 파이썬 환경 변수 문제일 수 있습니다. 아래 명령어로 실행해 보세요.
 
