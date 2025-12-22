@@ -26,12 +26,10 @@ Data Storage: JSON (Local File)
 ## 🚀 설치 및 실행 방법
 
 ### 1. 프로젝트 클론
-Bash
 
 git clone https://github.com/kth0727/python_review_program.git
 
 ### 2. 가상환경 생성 (권장)
-Bash
 
 Windows
 
@@ -111,11 +109,12 @@ streamlit run app.py
 └── README.md           # 설명서
 
 ❗ 트러블슈팅
-Q. streamlit 명령어를 찾을 수 없다는 오류가 떠요. A. 파이썬 환경 변수 문제일 수 있습니다. 아래 명령어로 실행해 보세요.
 
-Bash
+Q. streamlit 명령어를 찾을 수 없다는 오류가 떠요.
+A. 파이썬 환경 변수 문제일 수 있습니다. 아래 명령어로 실행해 보세요.
 
 python -m streamlit run app.py
-Q. 문제가 생성되지 않아요. A. PDF가 암호화되어 있거나, 이미지/텍스트 추출이 불가능한 스캔본일 경우 인식이 어려울 수 있습니다. 또한 .env 파일에 API 키가 올바르게 들어갔는지 확인해 주세요.
+Q. 문제가 생성되지 않아요.
+A. PDF가 암호화되어 있거나, 이미지/텍스트 추출이 불가능한 스캔본일 경우 인식이 어려울 수 있습니다. 또한 .env 파일에 API 키가 올바르게 들어갔는지 확인해 주세요.
 
 License: MIT Created by: [권태환/kth0727]
