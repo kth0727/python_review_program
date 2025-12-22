@@ -63,13 +63,13 @@ Image Processing: Pillow
 
 <br>
 
-1. 프로젝트 클론
+### 1. 프로젝트 클론
 
 git clone https://github.com/kth0727/python_review_program.git
 
 <br>
 
-2. 필수 라이브러리 설치
+### 2. 필수 라이브러리 설치
 
 가상환경(venv) 사용을 권장합니다.
 
@@ -79,7 +79,7 @@ pip install streamlit pymupdf google-generativeai python-dotenv pillow
 
 <br>
 
-3. API 키 설정
+### 3. API 키 설정
 프로젝트 루트 경로에 .env 파일을 생성하고, Google Gemini API 키를 입력하세요. (API 키 발급: Google AI Studio)
 
 .env 파일 내용:
@@ -90,7 +90,7 @@ GEMINI_API_KEY=여기에_당신의_API_키를_붙여넣으세요
 
 <br>
 
-4. 애플리케이션 실행
+### 4. 애플리케이션 실행
 
 터미널에서 아래 명령어를 입력하여 앱을 실행합니다.
 
